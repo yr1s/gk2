@@ -1,0 +1,60 @@
+*{
+  text-decoration: none;
+  color: black;
+}
+
+nav{
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+  text-align: left;
+  font-size: 1rem;
+  color: black;
+}
+
+header .container :hover{ /*hover significa quando passar o mouse */
+  transition-duration: 3ms; /*duraçao*/
+  color: aliceblue; /*cor*/
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+}
+h1, h2{
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+text-align: center;
+}
+
+
+ .logo{
+  clip-path: ellipse(45% 45% at 50% 50%);
+  background-color: rgb(44, 162, 167);
+  width: 9rem;
+  
+ }
+ .img{
+   height: 20rem;
+   width: 83.7rem;
+   object-fit: cover;
+ }
+ .box{
+  border-radius: 10px;
+
+ }
+ header .container{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   background-color: rgb(29, 95, 97);
+ }
+
+.box{
+  max-width: 700px;
+  margin: auto;
+  line-height: 2em;
+}
+
+

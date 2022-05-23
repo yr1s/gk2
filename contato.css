@@ -1,0 +1,27 @@
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(29, 95, 97);
+}
+.logo{
+  clip-path: ellipse(45% 45% at 50% 50%);
+  background-color: rgb(44, 162, 167);
+  width: 9rem;
+  
+ }
+ nav{
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+  text-align: left;
+  font-size: 1rem;
+  background-color: rgb(29, 95, 97);
+ }
+ *{
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  color: black;
+}
